@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_IntersectionTexture
-  m_Shader: {fileID: -6465566751694194690, guid: 4bc4fe1ecfcd8b54ab4a67d504dc194f, type: 3}
+  m_Name: Shader Graphs_Hologram
+  m_Shader: {fileID: -6465566751694194690, guid: a8bd2ab0cb231a740969f71a258db2c6, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -24,12 +24,9 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Slider: 1
-    m_Colors:
-    - _Color1: {r: 0, g: 1, b: 0.10070967, a: 0}
-    - _Color2: {r: 1, g: 0, b: 0.9059248, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &4184379387963351520
+--- !u!114 &2510982420660174668
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

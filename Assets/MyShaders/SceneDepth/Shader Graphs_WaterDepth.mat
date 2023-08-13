@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_IntersectionTexture
-  m_Shader: {fileID: -6465566751694194690, guid: 4bc4fe1ecfcd8b54ab4a67d504dc194f, type: 3}
+  m_Name: Shader Graphs_WaterDepth
+  m_Shader: {fileID: -6465566751694194690, guid: ab3d102f46b8da04199a2905c1edc4b7, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -24,12 +24,12 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Slider: 1
+    - _Distance: 0.5
     m_Colors:
-    - _Color1: {r: 0, g: 1, b: 0.10070967, a: 0}
-    - _Color2: {r: 1, g: 0, b: 0.9059248, a: 0}
+    - _Deep: {r: 0.05166427, g: 0.21164325, b: 0.40566036, a: 0}
+    - _Shallow: {r: 0.24256846, g: 0.42593148, b: 0.6509434, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &4184379387963351520
+--- !u!114 &9115881876931903379
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
