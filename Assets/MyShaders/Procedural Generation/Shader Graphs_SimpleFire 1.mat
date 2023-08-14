@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_SimpleFire 1
-  m_Shader: {fileID: -6465566751694194690, guid: adfffcea539a0074c8273cc3095bb419, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 4a2f64172fd2d8f41a02ea83db9ef0a0, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -33,8 +33,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Fire_0da76b1cdc2d4eb9abb8c6a11e7c1c8d_FlameTexture_1490860220:
+        m_Texture: {fileID: 2800000, guid: 1af0608e33387b14694efc45a190efab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fire_1c457093b837427cbe61e7376b147d83_FlameTexture_1490860220:
+        m_Texture: {fileID: 2800000, guid: 46b2a65167b126f4da5a3f0b2b128c1a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_077028e55b0d4487b6da2c87d44fcd4a_Texture_1:
         m_Texture: {fileID: 2800000, guid: 836c51ba8e1f8fb44b2b729b3f385ed0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e9ff87951ce24b3a9662cb65ce08a26f_Texture_1:
+        m_Texture: {fileID: 2800000, guid: c621ddb405f9fd24eb7ab79082ce3d10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_f673beba160949119634dd401343cd40_Texture_1:
